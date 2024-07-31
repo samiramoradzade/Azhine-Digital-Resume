@@ -23,7 +23,7 @@ body {
 img {
     width: 5%;
     mix-blend-mode: multiply;
-    background-color: transparent;
+    background-color: #faeb969f;
     }
 
 
@@ -71,7 +71,7 @@ img {
     /* border-radius: 10px; */
     transition: transform 0.3s ease;
     mix-blend-mode: multiply;
-    background-color: transparent;
+    background-color: #faeb969f;
     /* border:solid 3px ; */
     /* border-color: #520072; */
     }
