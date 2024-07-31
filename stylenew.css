@@ -1,7 +1,7 @@
 /* styles.css */
 body {
-    background-color: #faeb969f;
-    /*background: linear-gradient(180deg, #ffea297e, #68018893); /* Gradient background */
+    background-color: #3f3f9f;
+    /* background: linear-gradient(180deg, #e5bb35, #3f3f9f); /* Gradient background */
     padding: 0%;
     /* color: white; */
     margin: 0;
@@ -22,8 +22,8 @@ body {
 
 img {
     width: 5%;
-    mix-blend-mode: multiply;
-    background-color: #faeb969f;
+    mix-blend-mode: normal;
+    background-color: transparent;
     }
 
 
@@ -44,7 +44,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0%; /* Space between buttons in a row */
+    gap: -50%; /* Space between buttons in a row */
 }
 
 
@@ -57,10 +57,11 @@ img {
 
 .icon-button span {
     position: relative;
-    font-family:"Lalezar","serif";
+    font-family:"b_titrbold";
+    font-weight: bolder;
     display: block;
     margin-top: 5%; /* Space between image and text */
-    color: #460064; /* Text color */
+    color: #ffffff; /* Text color */
     font-size: 100%; /* Font size */
     text-align: center;
     }
@@ -70,8 +71,9 @@ img {
     height: 30%; /* Adjust size as needed */
     /* border-radius: 10px; */
     transition: transform 0.3s ease;
-    mix-blend-mode: multiply;
+    mix-blend-mode:normal;
     background-color: transparent;
+    
     /* border:solid 3px ; */
     /* border-color: #520072; */
     }
@@ -82,10 +84,10 @@ img {
     }
 
 .footer-text h1 {
-    font-family: "Lalezar";
+    font-family: "b_titrbold";
     font-size: 150%;
-    font-weight:lighter;
+    font-weight: bolder;
     text-align: center;
-    color: #460064;
-    margin-bottom: 5%;
+    color: #ffffff;
+    margin-bottom: 2%;
 }
