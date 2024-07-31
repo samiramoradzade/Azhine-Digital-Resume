@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+    /* background-color: #faeb969f; */
+    /*background: linear-gradient(180deg, #ffea297e, #68018893); /* Gradient background */
+    padding: 0%;
+    /* color: white; */
+    margin: 0;
+    
+    }
+
+
+
+.content {
+    min-height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0%;
+  }
+  
+
+img {
+    width: 5%;
+    mix-blend-mode: multiply;
+    }
+
+
+/* Container for the buttons */
+.button-container {
+    /* vertical-align:middle; */
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    cursor:pointer;
+    gap: 100%; /* Space between rows */
+    margin-top: 0%;
+    margin-bottom: 0%;
+    }
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0%; /* Space between buttons in a row */
+}
+
+
+/* Style for the icon buttons */
+.icon-button {
+    display: inline-block;
+    text-decoration:none;
+    text-align: center;
+    }
+
+.icon-button span {
+    position: relative;
+    font-family:"Lalezar","serif";
+    display: block;
+    margin-top: 5%; /* Space between image and text */
+    color: #460064; /* Text color */
+    font-size: 100%; /* Font size */
+    text-align: center;
+    }
+
+.icon-button img {
+    width: 30%; /* Adjust size as needed */
+    height: 30%; /* Adjust size as needed */
+    /* border-radius: 10px; */
+    transition: transform 0.3s ease;
+    mix-blend-mode: multiply;
+    /* border:solid 3px ; */
+    /* border-color: #520072; */
+    }
+
+.icon-button:hover img {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    /* border-color: #5108c5d5; */
+    }
+
+.footer-text h1 {
+    font-family: "Lalezar";
+    font-size: 150%;
+    font-weight:lighter;
+    text-align: center;
+    color: #460064;
+    margin-bottom: 5%;
+}
