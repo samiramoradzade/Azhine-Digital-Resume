@@ -71,7 +71,7 @@ img {
     /* border-radius: 10px; */
     transition: transform 0.3s ease;
     mix-blend-mode: multiply;
-    background-color: #faeb969f;
+    background-color: transparent;
     /* border:solid 3px ; */
     /* border-color: #520072; */
     }
