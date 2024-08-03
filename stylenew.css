@@ -82,3 +82,20 @@ img {
     color: #ffffff;
     margin-bottom: 2%;
 }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically on small screens */
+        gap: 10px; /* Reduce space between buttons */
+    }
+
+    .icon-button img {
+        width: 80px; /* Adjust size for smaller screens */
+        height: 80px; /* Adjust size for smaller screens */
+    }
+
+    .icon-button span {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
