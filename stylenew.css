@@ -53,13 +53,13 @@ img {
     display: block;
     margin-top: 5%; /* Space between image and text */
     color: #ffffff; /* Text color */
-    font-size: 20px; /* Font size */
+    font-size: 18px; /* Font size */
     text-align: center;
     }
 
 .icon-button img {
-    width: 45%; /* Adjust size as needed */
-    height: 45%; /* Adjust size as needed */
+    width: 40%; /* Adjust size as needed */
+    height: 40%; /* Adjust size as needed */
     /* border-radius: 10px; */
     transition: transform 0.3s ease;
     mix-blend-mode:normal;
@@ -76,7 +76,7 @@ img {
 
 .footer-text h1 {
     font-family: "b_titrbold";
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bolder;
     text-align: center;
     color: #ffffff;
