@@ -111,8 +111,8 @@ img {
         }
 
     .icon-button img {
-        width: 30%; /* Adjust size as needed */
-        height: 30%; /* Adjust size as needed */
+        width: 40%; /* Adjust size as needed */
+        height: 40%; /* Adjust size as needed */
         /* border-radius: 10px; */
         transition: transform 0.3s ease;
         mix-blend-mode:normal;
