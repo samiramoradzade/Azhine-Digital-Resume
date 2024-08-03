@@ -27,9 +27,9 @@ img {
     margin-left: 10%;
     row-gap: 1%;
     column-gap: 5%;
-    /* justify-content:center; */
+    justify-content:center;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     cursor:pointer;
     
   }
@@ -86,15 +86,28 @@ img {
 /* Media Query for Mobile Devices */
 @media (max-width: 600px) {
     .button-container {
-        /* background-color: rgba(255, 255, 255, 0.8); */
-        border: 1px solid rgb(255, 255, 255);
+        /* min-height: 50%; */
+        display: grid;
+        grid-template-columns:auto auto;
+        /* background-color: #2196F3; */
         /* padding: 50px; */
-        /* font-size: 30px; */
+        margin-right: 10%;
+        margin-left: 10%;
+        row-gap: 1%;
+        column-gap: 5%;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+        cursor:pointer;
+        }
+
+    .icon-button {
+        border: 1px solid rgb(255, 255, 255);
         text-align: center;
         display:table-row;
         text-decoration:none;
-        /* text-align: center; */
         transition: transform 0.3s ease;
+ 
         }
 
     .icon-button img {
@@ -104,15 +117,16 @@ img {
         transition: transform 0.3s ease;
         mix-blend-mode:normal;
         background-color: transparent;
-    }
+        }
 
     .icon-button span {
         position: relative;
-            font-family:"b_titrbold";
-            font-weight: bolder;
-            display: block;
-            margin-top: 5%; /* Space between image and text */
-            color: #ffffff; /* Text color */
-            font-size: 10px; /* Font size */
-            text-align: center;    }
+        font-family:"b_titrbold";
+        font-weight: bolder;
+        display: block;
+        margin-top: 5%; /* Space between image and text */
+        color: #ffffff; /* Text color */
+        font-size: 10px; /* Font size */
+        text-align: center;    
         }
+    }
